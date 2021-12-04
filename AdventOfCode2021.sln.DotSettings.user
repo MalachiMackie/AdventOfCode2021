@@ -4,5 +4,7 @@
     &lt;TestId&gt;xUnit::1E24925C-B684-4653-80C4-73965528F559::net6.0::AdventOfCodeTests.Day1Tests&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::1E24925C-B684-4653-80C4-73965528F559::net6.0::AdventOfCodeTests.Day2Tests.Part1Test&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::1E24925C-B684-4653-80C4-73965528F559::net6.0::AdventOfCodeTests.Day2Tests.Part2Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1E24925C-B684-4653-80C4-73965528F559::net6.0::AdventOfCodeTests.Day3Tests.Part1Test&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1E24925C-B684-4653-80C4-73965528F559::net6.0::AdventOfCodeTests.Day3Tests.Part2Test&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
