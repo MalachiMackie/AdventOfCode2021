@@ -8,3 +8,5 @@ Console.WriteLine(template, 3, 1, await AdventOfCode2021.Day3.Problem.SolvePart1
 Console.WriteLine(template, 3, 2, await AdventOfCode2021.Day3.Problem.SolvePart2());
 Console.WriteLine(template, 4, 1, await AdventOfCode2021.Day4.Problem.SolvePart1());
 Console.WriteLine(template, 4, 2, await AdventOfCode2021.Day4.Problem.SolvePart2());
+Console.WriteLine(template, 5, 1, await AdventOfCode2021.Day5.Problem.SolvePart1());
+Console.WriteLine(template, 5, 2, await AdventOfCode2021.Day5.Problem.SolvePart2());
