@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using AdventOfCode2021.Day5;
 using FluentAssertions;
 using Xunit;
 
@@ -21,16 +22,16 @@ public class Day5Tests
     [Fact]
     public async Task Part1Test()
     {
-        var input = AdventOfCode2021.Day5.Problem.ParseInput(Input.Split(Environment.NewLine));
-        var output = await AdventOfCode2021.Day5.Problem.SolvePart1(input);
+        var input = Problem.ParseInput(Input.Split(Environment.NewLine));
+        var output = await Problem.SolvePart1(input);
         output.Should().Be(5);
     }
 
     [Fact]
     public async Task Part2Test()
     {
-        var input = AdventOfCode2021.Day5.Problem.ParseInput(Input.Split(Environment.NewLine));
-        var output = await AdventOfCode2021.Day5.Problem.SolvePart2(input);
+        var input = Problem.ParseInput(Input.Split(Environment.NewLine));
+        var output = await Problem.SolvePart2(input);
         output.Should().Be(12); 
     }
 }

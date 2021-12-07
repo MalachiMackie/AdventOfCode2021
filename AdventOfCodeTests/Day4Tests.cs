@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
+using AdventOfCode2021.Day4;
 using FluentAssertions;
 using Xunit;
 
@@ -30,16 +31,16 @@ public class Day4Tests
     [Fact]
     public async Task Part1Test()
     {
-        var (bingoNumbers, bingoBoards) = AdventOfCode2021.Day4.Problem.ParseInput(Input.Split(Environment.NewLine));
-        var output = await AdventOfCode2021.Day4.Problem.SolvePart1(bingoNumbers, bingoBoards);
+        var (bingoNumbers, bingoBoards) = Problem.ParseInput(Input.Split(Environment.NewLine));
+        var output = await Problem.SolvePart1(bingoNumbers, bingoBoards);
         output.Should().Be(4512);
     }
 
     [Fact]
     public async Task Part2Test()
     {
-        var (bingoNumbers, bingoBoards) = AdventOfCode2021.Day4.Problem.ParseInput(Input.Split(Environment.NewLine));
-        var output = await AdventOfCode2021.Day4.Problem.SolvePart2(bingoNumbers, bingoBoards);
+        var (bingoNumbers, bingoBoards) = Problem.ParseInput(Input.Split(Environment.NewLine));
+        var output = await Problem.SolvePart2(bingoNumbers, bingoBoards);
         output.Should().Be(1924);
     }
 }

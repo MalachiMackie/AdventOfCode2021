@@ -1,20 +1,20 @@
 ﻿using System.Threading.Tasks;
-using AdventOfCode2021.Day6;
+using AdventOfCode2021.Day7;
 using FluentAssertions;
 using Xunit;
 
 namespace AdventOfCodeTests;
 
-public class Day6Tests
+public class Day7Tests
 {
-    private const string Input = "3,4,3,1,2";
+    private const string Input = "16,1,2,0,4,2,7,1,2,14";
     
     [Fact]
     public async Task Part1Test()
     {
         var input = Problem.ParseInput(Input);
         var output = await Problem.SolvePart1(input);
-        output.Should().Be(5934);
+        output.Should().Be(37);
     }
     
     [Fact]
@@ -22,6 +22,6 @@ public class Day6Tests
     {
         var input = Problem.ParseInput(Input);
         var output = await Problem.SolvePart2(input);
-        output.Should().Be(26984457539);
+        output.Should().Be(168);
     }
 }

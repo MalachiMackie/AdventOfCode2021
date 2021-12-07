@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using AdventOfCode2021.Day1;
 using FluentAssertions;
 using Xunit;
@@ -21,14 +22,16 @@ public class Day1Tests
     };
     
     [Fact]
-    public void Part1Test()
+    public async Task Part1Test()
     {
-        Problem.SolvePart1(TestInput).Should().Be(7);
+        var output = await Problem.SolvePart1(TestInput);
+        output.Should().Be(7);
     }
 
     [Fact]
-    public void Part2Test()
+    public async Task Part2Test()
     {
-        Problem.SolvePart2(TestInput).Should().Be(5);
+        var output = await Problem.SolvePart2(TestInput);
+        output.Should().Be(5);
     }
 }

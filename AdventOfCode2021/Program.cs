@@ -12,3 +12,5 @@ Console.WriteLine(template, 5, 1, await AdventOfCode2021.Day5.Problem.SolvePart1
 Console.WriteLine(template, 5, 2, await AdventOfCode2021.Day5.Problem.SolvePart2());
 Console.WriteLine(template, 6, 1, await AdventOfCode2021.Day6.Problem.SolvePart1());
 Console.WriteLine(template, 6, 2, await AdventOfCode2021.Day6.Problem.SolvePart2());
+Console.WriteLine(template, 7, 1, await AdventOfCode2021.Day7.Problem.SolvePart1());
+Console.WriteLine(template, 7, 2, await AdventOfCode2021.Day7.Problem.SolvePart2());
